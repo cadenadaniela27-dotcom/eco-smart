@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSmart Bottle – Smart & Sustainable Hydration</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background-color: #f5f7f6; color: #1b1b1b; }
+        header { background: linear-gradient(135deg, #0c6b47, #1ea96a); color: white; padding: 40px; text-align: center; }
+        .hero img { width: 420px; display: block; margin: auto; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.12); }
+        .section { padding: 40px; text-align: center; }
+        .features { display: flex; flex-wrap: wrap; justify-content: center; max-width: 1100px; margin: auto; }
+        .feature-box { background: white; width: 280px; padding: 20px; margin: 15px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); text-align: left; }
+        .price { font-size: 34px; font-weight: bold; color: #0c6b47; margin-top: 8px; }
+        .buy-btn { background-color: #0c6b47; padding: 15px 40px; color: white; text-decoration: none; font-size: 20px; border-radius: 10px; display: inline-block; margin-top: 12px; }
+        form { background: white; width: 90%; max-width: 700px; margin: 20px auto 60px auto; padding: 30px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: left; }
+        input, textarea { width: 100%; padding: 12px; margin-top: 10px; border-radius: 8px; border: 1px solid #bbb; box-sizing: border-box; }
+        button { margin-top: 15px; background-color: #1ea96a; color: white; padding: 12px 30px; border: none; font-size: 18px; border-radius: 8px; cursor: pointer; }
+        footer { margin-top: 40px; padding: 20px; background: #0c6b47; color: white; text-align: center; }
+        .policies { background: #fff; padding: 30px; margin: 20px auto; max-width: 1100px; border-radius: 10px; text-align: left; box-shadow: 0 4px 10px rgba(0,0,0,0.06); }
+        .two-col { display:flex; gap:20px; flex-wrap:wrap; justify-content:center; }
+        .col { flex:1; min-width:280px; }
+        .consent { display:flex; align-items:center; gap:10px; margin-top:8px; }
+        .small { font-size:13px; color:#333; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>EcoSmart Bottle™</h1>
+    <p>The intelligent eco-friendly bottle that understands your hydration needs.</p>
+</header>
+
+<section class="hero">
+    <img src="A_webpage_for_the_EcoSmart_Bottle,_an_intelligent_.png" alt="EcoSmart Bottle Photo">
+</section>
+
+<section class="section">
+    <h2>Why Choose EcoSmart Bottle?</h2>
+    <p>Made with 100% recyclable materials and equipped with intelligent sensors that track hydration, temperature, and daily water consumption.</p>
+</section>
+
+<section class="section">
+    <h2>Main Features</h2>
+    <div class="features">
+
+        <div class="feature-box">
+            <h3>♻ Recyclable Materials</h3>
+            <p>Eco-friendly and designed for long-term use.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>📱 Smart Sensors</h3>
+            <p>Track hydration levels, temperature, and consumption.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>🔋 Long Battery Life</h3>
+            <p>Up to 15 days per charge with USB-C.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>📊 Mobile App</h3>
+            <p>Connect and monitor your hydration goals in real time.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <h2>Price</h2>
+    <p class="price">$260 MXN</p>
+    <a href="#purchase" class="buy-btn">Buy Now</a>
+</section>
+
+<section class="section" id="purchase">
+    <h2>Contact & Purchase</h2>
+    <form onsubmit="event.preventDefault(); alert('Thank you! Your request has been received.');">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Full Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email" required>
+
+        <label for="message">Your message</label>
+        <textarea id="message" rows="4" placeholder="How can we help?"></textarea>
+
+        <div class="consent">
+            <input type="checkbox" id="agree" required>
+            <label for="agree" class="small">I accept the <a href="#terms">Terms & Conditions</a> and the <a href="#privacy">Privacy Notice</a>.</label>
+        </div>
+
+        <button type="submit">Send Purchase Request</button>
+    </form>
+</section>
+
+<section class="policies" id="privacy">
+    <h2>Privacy Notice (Aviso de Privacidad)</h2>
+    <div class="two-col">
+        <div class="col">
+            <h3>Responsible Party</h3>
+            <p>EcoSmart Bottle México<br>Email: contacto@ecosmartbottle.com<br>Address: CDMX, México.</p>
+
+            <h3>Personal Data Collected</h3>
+            <p class="small">Name, email, phone number, address, payment information, device data, cookies, and usage data.</p>
+
+            <h3>Primary Purposes</h3>
+            <p class="small">Process purchases, provide customer service, shipments, invoices, and order tracking.</p>
+
+            <h3>ARCO Rights</h3>
+            <p class="small">Exercise ARCO rights by emailing privacidad@ecosmartbottle.com. Responses within 20 days; execution within 15 additional days.</p>
+        </div>
+
+        <div class="col">
+            <h3>Secondary Purposes</h3>
+            <p class="small">Product updates, promotions, and satisfaction surveys.</p>
+
+            <h3>Revocation of Consent</h3>
+            <p class="small">Withdraw consent via revocacion@ecosmartbottle.com.</p>
+
+            <h3>Transfers</h3>
+            <p class="small">Data may be shared with payment processors and logistics providers under Mexican law.</p>
+
+            <h3>Cookies</h3>
+            <p class="small">We use technical, analytical, and advertising cookies. Disable non-essential cookies in your browser.</p>
+        </div>
+    </div>
+</section>
+
+<section class="policies" id="terms">
+    <h2>Terms & Conditions</h2>
+    <p><strong>Description of Services:</strong> EcoSmart Bottle sells eco-friendly smart bottles and accessories through its online store.</p>
+    <p><strong>Purchases & Deliveries:</strong> Deliveries within 3–7 business days in Mexico. Shipping delays by carriers are not the store's responsibility. Prices include taxes unless stated.</p>
+    <p><strong>Cancellations & Refunds:</strong> Orders may be canceled within 24 hours. Refunds follow PROFECO guidelines. Returns for manufacturing defects within 30 days.</p>
+    <p><strong>Intellectual Property:</strong> All content, brand name, logos and design belong to EcoSmart Bottle™.</p>
+    <p><strong>Limitation of Liability:</strong> Not responsible for misuse, improper charging, or unauthorized repairs.</p>
+</section>
+
+<section class="policies">
+    <h2>Cookies Policy</h2>
+    <p><strong>Types of Cookies:</strong> Essential, Analytics, Advertising.</p>
+    <p><strong>Consent:</strong> Users see a banner requesting permission and may disable non-essential cookies at any time.</p>
+    <p><strong>Withdrawal:</strong> Email privacidad@ecosmartbottle.com.</p>
+</section>
+
+<section class="policies">
+    <h2>Commercial Information</h2>
+    <p><strong>Provider:</strong> EcoSmart Bottle México</p>
+    <p><strong>RFC:</strong> ECO230101XX1</p>
+    <p><strong>Email:</strong> contacto@ecosmartbottle.com</p>
+    <p><strong>WhatsApp:</strong> +52 55 0000 0000</p>
+    <p><strong>Price:</strong> $260 MXN (final price)</p>
+</section>
+
+<footer>
+    <p>© 2025 EcoSmart Bottle México | All rights reserved.</p>
+</footer>
+
+</body>
+</html>
