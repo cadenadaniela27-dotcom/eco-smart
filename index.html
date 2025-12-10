@@ -100,7 +100,7 @@
     </div>
 
     <div class="media">
-      <img class="product-img" src="producto.png" alt="EcoSmart Bottle fotografía de producto">
+      <img class="product-img" src=""C:\Users\caden\OneDrive\Imágenes\Capturas de pantalla\Captura de pantalla 2025-12-10 115835.png"" alt="EcoSmart Bottle fotografía de producto">
     </div>
   </section>
 
